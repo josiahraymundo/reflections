@@ -1,0 +1,45 @@
+How did viewing a diff between two versions help you spot the bug?
+
+Using the diff command made it easier to find errors in your code. The manual method of looking for errors in your code, checking by eye, and scanning without the help of your computer brings a lot of risk of missing out a typographical error in your code. With diff command, this risk caused by human error is eliminated resulting to a more accurate comparison between files. In addition, it saves you a lot of time with the debugging process. Just execute the diff command, find your typo, correct it and elminate the bug. You can now move on to doing your next task.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+The ability to have every version of codes you are writing gives a programmer control over the timeline of the process of developing software. In some situations, he no longer needs to re-write code  from scratch if at one point he made an error due to a feature he's trying to create for the program. When the time comes that the software has grown to be a very large application, the history of the source code or just any file will help the programmer to go back in time to make whatever changes needed to improve the certain file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commit
+Pros:
+Commit points are logical, which means the changes saved in a commit is meaningful and makes sense.
+Cons:
+Prone to human error, especially for newbies
+Programmer might forget that he/she must commit already.
+
+Automatic commit
+Pros:
+All changes are saved in history in a more detailed way.
+Small changes can be undone very easily.
+
+Cons:
+Saving every time there is change will take up more storage space.
+Some of the changes saved wouldn't make sense for the programmer.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think, this is because Git was created with the development of software in mind. Linus Torvalds understood that when creating software, the interdependencies of each part of the software is critical for it to work. Each object, program, or database must be in sync, as in, compiled together or saved together for it to work.
+
+How can you use the commands git log and git diff to view the history of files?
+
+'git log' command shows the list of changes done to a repository over a period of time. The most recent one is on the the top, older ones are on the bottom. From what I have observed, each commit ID is the snapshot of the repository, a log which indicates that one or more objects in the repository has been changed at a certain date and time. 
+
+On the other hand, 'git diff' command shows the comparison for all the changed files in the repository. I have to keep in mind that when using the git diff command, the first commit ID is the older one, the second commit ID is the newer. When I want to view the changes made for a specific snapshot, I use the 'git diff' command, copy the commit ID below the snapshot of the changes I want to check, use it as the first parameter, then, copy the commit ID of the snapshot concerned then use it as the second parameter. Afterwhich, the comparison is shown.
+
+When checking the comparison, I learned that you have to check the files being compared. For the quiz, when checking the number of lines changed, I disregarded the filenames of those files being compared. I ended up having the wrong answer. I also used the wrong commit IDs, that's why. After correcting the commit IDs to compare, I now have the correct number of lines changed.
+
+How might using version control make you more confident to make changes that could break something?
+
+Git or any other version control systematically backs up every check point in your development process via a commit. Every snapshot is an assurance that we can always go back to a specific state of the software if there's an instance we made a mistake during coding. I guess, we can philosophically say that confidence is built upon a well-recorded history, and with that confidence, we can go back in time and resurrect an era long gone.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to be a web developer and this the first reason I am learning it. Having my workspace set up now, I will us Git to efficiently work with my HTML, CSS and javascript files.

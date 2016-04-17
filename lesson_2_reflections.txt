@@ -17,6 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 When experimenting on a new feature, or making a version of your software in a different language, or testing a major structure change in your program, creating separate branches for each allows to the developer to safely make those changes without breaking his code. This also gives the developer freedom and alot of confidence to try new things to develop.
 
 How do the diagrams help you visualize the branch structure?
+Digrams can show the relationship of each commit to each other. It also helps you visualize why you don't see certain commits when you do a git log command.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

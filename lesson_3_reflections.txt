@@ -18,7 +18,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 Maybe SVN, because that's the only alternative I know. I think it will be not that different.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+Changes in master, I think, is generally acceptable when you are working alone. As each commit is basically your change, it's not that critical to just go back to previous commit in case you made a mistake. However, when it comes to collaborating with other people and working with a very big project, it is vital to work on a separate branch to ensure the correctness and efficiency of the changes that will be incorporated to the master branch. By having a separate branch, peer reviews will be a lot easier.

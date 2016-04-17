@@ -10,10 +10,9 @@ Forks are copies of a repository from another user within GitHub. You use this m
 Clones are either copies of a repository from GitHub to a local machine, or from within the same local machine. You use this method to duplicate a repository for just about any purpose.
 Branches are labels or pointers to a commit. You create a branch when you want to work on a project or a task usually to isolate it from the master or production branch. It's similar to clone, just on a smaller scale.
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+One benefit of this is to be able to track whether the developer's local repository is still in sync with the remote, especially when collaborating with other users. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

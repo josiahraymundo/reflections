@@ -14,10 +14,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 One benefit of this is to be able to track whether the developer's local repository is still in sync with the remote, especially when collaborating with other users. 
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+Maybe SVN, because that's the only alternative I know. I think it will be not that different.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?

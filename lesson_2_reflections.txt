@@ -13,8 +13,8 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 First, without checking the code, it can be verified that files being committed are part of one logical change as it's part of the batch added to the staging area. Second, this can be further verified by using 'git diff --staged' to perform an isolated comparison of the changes between the staging area and the latest commit in the repository. Changes for the other files currently in the working directory is expected not to be included in this comparison.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When experimenting on a new feature, or making a version of your software in a different language, or testing a major structure change in your program, creating separate branches for each allows to the developer to safely make those changes without breaking his code. This also gives the developer freedom and alot of confidence to try new things to develop.
 
 How do the diagrams help you visualize the branch structure?
 
